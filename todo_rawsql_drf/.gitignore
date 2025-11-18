@@ -1,0 +1,104 @@
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =====================================
+# Django
+# =====================================
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+
+# Ignore Django SQLite DB
+db.sqlite3
+*.sqlite3
+*.sqlite3-journal
+
+# Media & static generated files
+/media/
+staticfiles/
+static/
+
+# Local settings (optional)
+local_settings.py
+
+# =====================================
+# Environment variables & secrets
+# =====================================
+.env
+.env.*        # for multiple env files
+*.env
+secrets.json
+
+# =====================================
+# Virtual Environment
+# =====================================
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Poetry
+.poetry/
+
+# Pipenv
+Pipfile.lock
+
+# =====================================
+# IDE / Editor stuff
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================================
+# Pytest
+# =====================================
+.pytest_cache/
+.cache/
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+
+# =====================================
+# MacOS / Linux
+# =====================================
+.DS_Store
+*.backup
+Thumbs.db
+
+# =====================================
+# Logs
+# =====================================
+logs/
+*.log
+
+# =====================================
+# Node (if using React/Vite in project)
+# =====================================
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-store/
+
+# =====================================
+# My Custom DB for RawSQL app
+# =====================================
+todo.sqlite3
+test_*.sqlite3
+
